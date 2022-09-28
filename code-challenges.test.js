@@ -37,12 +37,12 @@
 // const fibLength2 = 10
 // // Expected output: [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 
-// describe("fibonacciSequence", () => {
-//     it("takes in a number (greater than 2) and returns an array that length containing the numbers of the Fibonacci sequence ", () => {
-//       expect(fibonacciSequence(fibLength1)).toEqual([1, 1, 2, 3, 5, 8])
-//       expect(fibonacciSequence(fibLength2)).toEqual([1, 1, 2, 3, 5, 8, 13, 21, 34, 55])
-//     })
-//   })
+describe("fibonacciSequence", () => {
+    it("takes in a number (greater than 2) and returns an array that length containing the numbers of the Fibonacci sequence ", () => {
+      expect(fibonacciSequence(fibLength1)).toEqual([1, 1, 2, 3, 5, 8])
+      expect(fibonacciSequence(fibLength2)).toEqual([1, 1, 2, 3, 5, 8, 13, 21, 34, 55])
+    })
+  })
 
   //FAIL ->  ReferenceError: fibonacciSequence is not defined
 
