@@ -6,6 +6,18 @@
 
 <!-- HINT: Check the console in the browser developer tools for errors. The lines numbers may not match up with the line numbers in your text editor. -->
 
+                              <!----DEBUGGING---->
+  <!--Bug 1:
+  JSX components were not wrapped in a single container tag - React fragment 
+  line 80 <> 
+  line 97 </> 
+      Bug 2:
+  onclick should be onClick, since React Events are named useng camelCase
+   <button onClick={shuffle}>
+    Bug 3:
+  empty {} -> event handler drawCard added inside {} <button onClick={drawCard}> 
+    -->
+                          <!--DONE. IT WORKS NOW-->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -65,11 +77,12 @@
         // No need to change anything ABOVE this line ^
 
         return (
+          <>
           <h1>Draw a Card</h1>
-          <button onClick={}>
+          <button onClick={drawCard}>
             Click to Draw a Card
           </button>
-          <button onclick={shuffle}>
+          <button onClick={shuffle}>
             Return Cards and Shuffle Deck
           </button>
           <div style={handStyles}>
@@ -81,6 +94,7 @@
               )
             })}
           </div>
+          </>
         )
       }
 
