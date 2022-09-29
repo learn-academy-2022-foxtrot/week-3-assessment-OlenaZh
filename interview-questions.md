@@ -31,8 +31,11 @@ Researched answer:
 
 - Yarn is responsible for managing node modules, which is needed to create a React app. Yarn helps keep it organized. 
 - yarn create react-app movie-application -> it is a yarn command that will create the file structure of a React. 
-- Application names must be in lower case if it is a single word, and in kebob-case if a multiple words app name. 
 - yarn creates all the files and installs all the node module dependencies to get a base app in React.
+
+- yarn.lock
+- package.json
+- node_modules
 
 
 3. What is an anonymous function in JavaScript?
@@ -75,19 +78,19 @@ Your answer:
 DOM is a Document Object Model. It is a visual representation of your code. This is what we see when open a web page. You can interact with the web page using DOM events (Ex. onclick)
 
 Researched answer:
-DOM is a programming interface for web documents. It allows programms and scripts to dynamically access and apdate the content, structure, and style of a document. 
+DOM is a programming interface for web documents. It allows programms and scripts to dynamically access and update the content, structure, and style of a document. 
 
 6. STRETCH: Which is the difference between a div and a span?
 
 Your answer:
-<div> stands for Division tag. It is used to make division of content on the web page. 
-Using <div> you can create different sections (Ex.: footer, header, text, ect).
-<span> is an inline container. We usually use it for styling purposes. 
+div - stands for Division tag. It is used to make division of content on the web page. 
+Using div you can create different sections (Ex.: footer, header, text, ect).
+span is an inline container. We usually use it for styling purposes. 
 
 Researched answer:
 
-- The <div>  tag is a block level element. We use it wrap a section. for highlighting that section. It accept align attribute.
-- The <span> tag is inline element. Most often it is used to attach CSS to a small section of a linein a web page. We use it if we need to wrap a  specific word that we want to highlight in our webpage. It doesn`t accept align attribut. 
+- The div tag is a block level element. We use it wrap a section. for highlighting that section. It accept align attribute.
+- The span tag is inline element. Most often it is used to attach CSS to a small section of a linein a web page. We use it if we need to wrap a  specific word that we want to highlight in our webpage. It doesn`t accept align attribut. 
 
 ## Looking Ahead: Terms for Next Week
 

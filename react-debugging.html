@@ -6,15 +6,18 @@
 
 <!-- HINT: Check the console in the browser developer tools for errors. The lines numbers may not match up with the line numbers in your text editor. -->
 
-                                  <!----DEBUGGING---->
-  <!--Bugs 1-2:
+                              <!----DEBUGGING---->
+  <!--Bug 1:
   JSX components were not wrapped in a single container tag - React fragment 
-  line 77 <> 
-  line 94 </> 
-      Bug - 3:
-  onclick should be onClick, since React Events are named useng camelCase 
-  <button onClick={drawCard}> -->
-
+  line 80 <> 
+  line 97 </> 
+      Bug 2:
+  onclick should be onClick, since React Events are named useng camelCase
+   <button onClick={shuffle}>
+    Bug 3:
+  empty {} -> event handler drawCard added inside {} <button onClick={drawCard}> 
+    -->
+                          <!--DONE. IT WORKS NOW-->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
